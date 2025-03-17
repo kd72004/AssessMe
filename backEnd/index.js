@@ -9,7 +9,7 @@ const AuthRouter = require('./Routers/AuthRouter');
 const ExamRouter = require('./Routers/ExamRoutes');
 const QuestionRouter = require('./Routers/Question');
 const StudentRouter = require('./Routers/Student');
-const DiscussionRouter = require('./Routers/DiscussionRouter'); // Added discussion routes
+const DiscussionRouter = require('./Routers/Comment'); // Added discussion routes
 
 dotenv.config();
 
